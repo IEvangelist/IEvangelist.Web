@@ -12,6 +12,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="wwwroot\app\contact\contact.component.html" />
+    <Content Include="wwwroot\app\contact\contact.component.ts" />
+    <Content Include="wwwroot\app\vendor.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Update="wwwroot\**\*;Views\**\*;Areas\**\Views;appsettings.json;web.config">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>

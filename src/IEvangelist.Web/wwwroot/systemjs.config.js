@@ -1,7 +1,3 @@
-/**
- * System configuration for Angular 2
- * Adjust as necessary for your application needs.
- */
 (function (global) {
     System.config({
         paths: {
@@ -22,7 +18,8 @@
             '@angular/router': 'npm:@angular/router/bundles/router.umd.js',
             '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
             // other libraries
-            'rxjs': 'npm:rxjs'
+            'rxjs': 'npm:rxjs',
+            'angular2-mdl': 'vendor/angular2-mdl'
         },
         // packages tells the System loader how to load when no filename and/or no extension
         packages: {
@@ -32,6 +29,9 @@
             },
             rxjs: {
                 defaultExtension: 'js'
+            },
+            'angular2-mdl': {
+                main: 'bundle/angular2-mdl.js'
             }
         }
     });

@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent }  from './app.component';
 import { HomeComponent } from './home/home.component';
+import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { routing, appRoutingProviders } from './app.routing';
 import { CharacterService } from './shared/character.service';
@@ -23,6 +24,7 @@ import { CharacterService } from './shared/character.service';
     declarations: [
         AppComponent,
         HomeComponent,
+        ContactComponent,
         AboutComponent
     ],
     bootstrap: [AppComponent]

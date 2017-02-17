@@ -79,7 +79,8 @@ namespace IEvangelistWeb
                })
                .UseMvc(routes =>
                {
-                   routes.MapSpaFallbackRoute("spa-fallback", new { controller = "home", action = "index" });
+                   routes.MapSpaFallbackRoute("spa-fallback", 
+                                              new { controller = "home", action = "index" });
                });
         }
     }

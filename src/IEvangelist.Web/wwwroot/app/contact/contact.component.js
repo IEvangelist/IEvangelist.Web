@@ -6,16 +6,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var core_1 = require("@angular/core");
-var AboutComponent = (function () {
-    function AboutComponent() {
+var ContactComponent = (function () {
+    function ContactComponent() {
     }
-    return AboutComponent;
+    return ContactComponent;
 }());
-AboutComponent = __decorate([
+ContactComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
-        template: "\n        <div class=\"card-wide mdl-card mdl-shadow--2dp\">\n            <div class=\"mdl-card__title\">\n                <h2 class=\"mdl-card__title-text\">About</h2>\n            </div>\n            <div class=\"mdl-card__supporting-text\">\n                An example of how an inline template looks. Earth shattering, I know...\n            </div>\n        </div>\n    "
+        templateUrl: 'contact.component.html'
     })
-], AboutComponent);
-exports.AboutComponent = AboutComponent;
-//# sourceMappingURL=about.component.js.map
+], ContactComponent);
+exports.ContactComponent = ContactComponent;
+//# sourceMappingURL=contact.component.js.map

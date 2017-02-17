@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
                 <h2 class="mdl-card__title-text">About</h2>
             </div>
             <div class="mdl-card__supporting-text">
-                You're ready to start working on IEvangelist.Web <3
+                An example of how an inline template looks. Earth shattering, I know...
             </div>
         </div>
     `

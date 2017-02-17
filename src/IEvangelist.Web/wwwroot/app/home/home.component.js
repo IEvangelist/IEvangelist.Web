@@ -16,7 +16,8 @@ var HomeComponent = (function () {
     }
     HomeComponent.prototype.ngOnInit = function () {
         var _this = this;
-        this.characterService.getCharacters()
+        this.characterService
+            .getCharacters()
             .subscribe(function (characters) { return _this.characters = characters; });
     };
     return HomeComponent;

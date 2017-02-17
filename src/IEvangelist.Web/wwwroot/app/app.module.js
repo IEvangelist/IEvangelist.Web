@@ -11,6 +11,7 @@ var forms_1 = require("@angular/forms");
 var http_1 = require("@angular/http");
 var app_component_1 = require("./app.component");
 var home_component_1 = require("./home/home.component");
+var contact_component_1 = require("./contact/contact.component");
 var about_component_1 = require("./about/about.component");
 var app_routing_1 = require("./app.routing");
 var character_service_1 = require("./shared/character.service");
@@ -34,6 +35,7 @@ AppModule = __decorate([
         declarations: [
             app_component_1.AppComponent,
             home_component_1.HomeComponent,
+            contact_component_1.ContactComponent,
             about_component_1.AboutComponent
         ],
         bootstrap: [app_component_1.AppComponent]
